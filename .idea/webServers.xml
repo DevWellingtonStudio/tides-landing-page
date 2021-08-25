@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7f3481f6-7ac6-48b9-b718-5a6911113391" name="tides.wellington-studio.com" url="http://tides.wellington-studio.com">
+        <fileTransfer rootFolder="/home/wellingt/public_html/tides" accessType="SFTP" host="178.128.69.182" port="122" sshConfigId="7b7d59eb-133f-40e2-913b-64505871ab08" sshConfig="wellingt@178.128.69.182:122 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
