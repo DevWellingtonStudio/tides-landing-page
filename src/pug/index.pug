@@ -1,0 +1,86 @@
+doctype html
+html(lang='en')
+
+head
+
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='author', content='')
+
+    title Tides - Daring Change Sign Up
+
+    // Favicon
+    link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+
+    // Core theme CSS (includes Bootstrap)
+    link(href='css/styles.css', rel='stylesheet')
+
+body
+
+ // Page content
+ #page-wrapper
+  .mb-4.jumbotron
+   img.img-fluid(src='./assets/hero-desktop-tides-pardot-nl-signup-lp.jpg')
+   .container-fluid.py-5
+    .container
+     img.top-logo(src='./assets/tides-logo-top+bottom-desktop-tides-pardot-nl-signup-lp.png')
+     .col-md-8.fs-4.header-cta
+      h2 Sign Up for Daring Change,<br> Tides' Monthly Newsletter
+
+  .mb-4.jumbotron-mobile
+     img.img-fluid(src='./assets/hero-mobile-tides-pardot-nl-signup-lp.jpg')
+     .container-fluid.py-5
+      .container
+       img.top-logo(src='./assets/tides-logo-top+bottom-desktop-tides-pardot-nl-signup-lp.png')
+       .col-md-8.fs-4.header-cta
+        h2 Sign Up for Daring Change,<br> Tides' Monthly Newsletter
+
+
+
+  .container.content-container
+   .row
+    .col-lg-6
+     .mt-5.cta-wrap
+       h2.cta Dive Into Our Work
+       p.lead Working with Tides, our partners take on bold challenges and drive impact faster than they can on their own. Be on the ground with them and learn all about the impact they're making every single day.
+       .card.form-section
+        form(class='needs-validation' novalidate)
+         .mb-5.form-name
+           .has-validation
+            <label for="nameInput" class="form-label">Your first and last name</label>
+            <input type="text" class="form-control" id="nameInput" aria-describedby="nameInput" required>
+            .invalid-feedback Please enter your first and last name.
+
+
+
+         .mb-5.form-email
+          .has-validation
+            <label for="emailInput" class="form-label">Your email address</label>
+            <input type="email" class="form-control" id="emailInput" required>
+            .invalid-feedback Please enter your email address.
+
+         <button type="submit" class="btn btn-tides">Subscribe now</button>
+         .invalid-feedback  Please correct the errors above.
+
+
+    .col-lg-6
+     .cta-image-wrap
+       img.img-fluid(src='./assets/angled-pic-desktop-tides-pardot-nl-signup-lp.png')
+
+  .container-fluid.padding-zero
+    img.img-fluid(src='./assets/green-geometric-graphic-desktop-tides-pardot-nl-signup-lp.svg')
+
+  #footer-section
+   .footer
+    .container-fluid
+     .container
+      img.footer-logo(src='./assets/tides-logo-top+bottom-mobile-tides-pardot-nl-signup-lp.png')
+
+
+// Bootstrap core JS
+script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js')
+
+// Core theme JS
+script(src='js/scripts.js')
+script(src='js/form-validation.js')

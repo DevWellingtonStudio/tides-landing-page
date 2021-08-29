@@ -1,0 +1,394 @@
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Open+Sans&display=swap');
+
+
+/** HELPERS
+*****************************/
+
+.padding-zero {
+  padding: 0 !important;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+/** TYPOGRAPHY
+*****************************/
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Bitter', Helvetica, serif;;
+}
+
+p {
+  font-family: 'Open Sans', Helvetica sans-serif;
+}
+
+.cta-wrap {
+
+  p,p.lead,h1,h2,h3,h4,h5 {
+    color: #5A6169;
+  }
+
+  .form-label {
+    color: #5A6169;
+    font-family: 'Bitter', Helvetica, serif;;
+  }
+
+}
+
+button.btn-tides {
+  font-family: 'Open Sans', Helvetica sans-serif;
+  font-weight: 900 !important;
+}
+
+button.btn-tides:hover {
+  color: #f3f3f3;
+}
+
+/** BODY
+*****************************/
+
+.cta-wrap {
+  .form-control {
+    background-color: #f3f3f3;
+    border-color: #f3f3f3;
+  }
+}
+
+.cta-image-wrap {
+  img {
+    margin: -185px auto 0 auto;
+    display: block;
+    position: relative;
+    z-index: 900;
+  }
+}
+
+.btn-tides {
+  color: #fff;
+  background-color: #067990;
+  border-color: #067990;
+  border-radius: 0;
+  padding: 0.5em 2.5em;
+}
+
+.btn.btn-tides:focus {
+  box-shadow: 0 0 0 0.25rem rgb(66 179 158 / 25%);
+}
+
+#page-wrapper {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  position: relative;
+  .container-fluid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.jumbotron-mobile {
+  position: relative;
+  .container-fluid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.header-cta {
+  h2 {
+    font-size: 38px;
+    color: #f5f5f5;
+    margin: 2.68em 0 0 0;
+    transition: 0.5s;
+  }
+}
+
+.top-logo {
+  width: 200px;
+  transition: 0.5s;
+}
+
+.form-name, .form-email {
+  margin-bottom: 1.618em;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.25rem rgb(66 179 158 / 25%);
+}
+
+.card {
+  &.form-section {
+    margin: 3.618em auto 0 auto;
+    border: none;
+    background: transparent;
+  }
+}
+
+/** FOOTER
+*****************************/
+
+.footer {
+  padding: 3rem 0 12rem;
+  background-color: #5A6169;
+}
+
+/** MEDIA QUERIES
+*****************************/
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+  .cta-image-wrap {
+    img {
+      width: max(34vw, 70%);
+      transition: 0.5s;
+    }
+  }
+
+  .jumbotron-mobile {
+    display: none;
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+  .cta-image-wrap {
+    img {
+      width: max(32vw, 70%);
+      transition: 0.5s;
+    }
+  }
+
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+
+  .cta-image-wrap {
+    img {
+      width: max(30vw, 70%);
+      transition: 0.5s;
+    }
+  }
+
+}
+
+
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+
+  .header-cta {
+    h2 {
+      font-size: max(3vw, 38px);
+      margin: 2.68em 0 0 0;
+      transition: 0.5s;
+    }
+  }
+
+  .top-logo {
+    width: 200px;
+    transition: 0.5s;
+  }
+
+  .footer {
+    padding: 3em 0 12em;
+  }
+}
+
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+  .header-cta {
+    h2 {
+      font-size: 3vw;
+      margin: 2.68em 0 0 0;
+      transition: 0.5s;
+    }
+  }
+
+  .top-logo {
+    width: 200px;
+    transition: 0.5s;
+  }
+
+  .footer {
+    padding: 3em 0 12em;
+  }
+
+}
+
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+
+  .cta-image-wrap {
+    img {
+      display: none;
+    }
+  }
+
+  .jumbotron {
+    display: none;
+  }
+
+  .header-cta {
+    h2 {
+      font-size: 4vw;
+      margin: 2.68em 0 0 0;
+      transition: 0.5s;
+    }
+  }
+
+  .top-logo {
+    width: 150px;
+    transition: 0.5s;
+  }
+
+  .footer {
+    padding: 3em 0 12em;
+  }
+
+}
+
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+
+  .header-cta {
+    h2 {
+      font-size: 5vw;
+      margin: 2.68em 0 0 0;
+      transition: 0.5s;
+    }
+  }
+
+  .top-logo {
+    width: 100px;
+    transition: 0.5s;
+  }
+
+  .footer {
+    padding: 3em 0 12em;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : landscape) {
+
+  .header-cta {
+    h2 {
+      font-size: 4vw;
+      margin: 2.68em 0 0 0;
+      transition: 0.5s;
+    }
+  }
+
+  .top-logo {
+    width: 100px;
+    transition: 0.5s;
+  }
+
+  .footer {
+    padding: 3em 0 12em;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 411px)
+and (max-device-width : 731px)
+and (orientation : landscape) {
+
+  .header-cta {
+    h2 {
+      font-size: 4vw;
+      margin: 2.68em 0 0 0;
+      transition: 0.5s;
+    }
+  }
+
+  .top-logo {
+    width: 100px;
+    transition: 0.5s;
+  }
+
+  .footer {
+    padding: 3em 0 12em;
+  }
+
+}
+
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+
+  .header-cta {
+    h2 {
+      font-size: 6vw;
+      margin: 2.68em 0 0 0;
+      transition: 0.5s;
+    }
+  }
+
+  .top-logo {
+    width: 100px;
+    transition: 0.5s;
+  }
+
+  .footer {
+    padding: 3em 0 12em;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 640px)
+and (orientation : landscape) {
+
+  .header-cta {
+    h2 {
+      font-size: 4vw;
+      margin: 2.68em 0 0 0;
+      transition: 0.5s;
+    }
+  }
+
+  .top-logo {
+    width: 100px;
+    transition: 0.5s;
+  }
+
+  .footer {
+    padding: 3em 0 12em;
+  }
+
+}
+
+
+
