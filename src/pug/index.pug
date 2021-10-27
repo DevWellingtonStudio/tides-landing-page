@@ -20,23 +20,32 @@ body
 
  // Page content
  #page-wrapper
-  .mb-4.jumbotron
-   img.img-fluid(src='./assets/hero-desktop-tides-pardot-nl-signup-lp.jpg')
+  .mb-4.jumbotron.hero-background
+   <div class="gradient-overlay brand-gradient-1"></div>
+
+   <div class="fan fan--bottom fan--right">
+       <svg class="fan__svg " width="1400px" height="150" viewBox="0 0 1400 150" preserveAspectRatio="none" data-rellax-speed="0" data-rellax-percentage="0.5" data-rellax-index="1">
+           <g fill="#FFFFFF">
+               <polygon fill-opacity="" points="0 80 1400 60 1400 150 0 150"></polygon>
+           </g>
+       </svg>
+       <svg class="fan__svg js-parallax" width="1400px" height="150" viewBox="0 0 1400 150" preserveAspectRatio="none" data-rellax-speed="-0.2" data-rellax-percentage="0.5" data-rellax-index="1">
+           <g fill="#FFFFFF">
+               <polygon fill-opacity="0.6" points="0 70 1400 30 1400 150 0 150"></polygon>
+           </g>
+       </svg>
+       <svg class="fan__svg js-parallax" width="1400px" height="150" viewBox="0 0 1400 150" preserveAspectRatio="none" data-rellax-speed="-0.4" data-rellax-percentage="0.5" data-rellax-index="1">
+           <g fill="#FFFFFF">
+               <polygon fill-opacity="0.6" points="0 60 1400 0 1400 150 0 150"></polygon>
+           </g>
+       </svg>
+   </div>
+
    .container-fluid.py-5
     .container
      img.top-logo(src='./assets/tides-logo-top+bottom-desktop-tides-pardot-nl-signup-lp.png')
      .col-md-8.fs-4.header-cta
       h2 Sign Up for Daring Change,<br> Tides' Monthly Newsletter
-
-  .mb-4.jumbotron-mobile
-     img.img-fluid(src='./assets/hero-mobile-tides-pardot-nl-signup-lp.jpg')
-     .container-fluid.py-5
-      .container
-       img.top-logo(src='./assets/tides-logo-top+bottom-desktop-tides-pardot-nl-signup-lp.png')
-       .col-md-8.fs-4.header-cta
-        h2 Sign Up for Daring Change,<br> Tides' Monthly Newsletter
-
-
 
   .container.content-container
    .row
@@ -65,8 +74,9 @@ body
 
 
     .col-lg-6
-     .cta-image-wrap
-       img.img-fluid(src='./assets/angled-pic-desktop-tides-pardot-nl-signup-lp.png')
+     .img-skew
+      .cta-image-wrap.img-skew__container
+        img.img-fluid(src='./assets/angled-pic3-desktop-tides-pardot-nl-signup-lp-flat.jpg')
 
   .container-fluid.padding-zero
     img.img-fluid(src='./assets/green-geometric-graphic-desktop-tides-pardot-nl-signup-lp.svg')
