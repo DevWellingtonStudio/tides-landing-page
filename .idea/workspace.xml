@@ -7,9 +7,6 @@
     <list default="true" id="6def1a97-3721-4eb2-bf40-83c136ca7518" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pug/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/src/pug/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635360788333</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Font updates">
+      <created>1635366972694</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635366972694</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +106,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Updated per NPM" />
     <MESSAGE value="Hero image responsive updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hero image responsive updates" />
+    <MESSAGE value="Font updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Font updates" />
   </component>
 </project>
