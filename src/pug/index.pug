@@ -45,7 +45,7 @@ body
     .container
      img.top-logo(src='./assets/tides-logo-top+bottom-desktop-tides-pardot-nl-signup-lp.png')
      .col-md-8.fs-4.header-cta
-      h2 Sign Up for Daring Change,<br> Tides' Monthly Newsletter
+      h1 Sign Up for Daring Change,<br> Tides' Monthly Newsletter
 
   .container.content-container
    .row
@@ -57,7 +57,7 @@ body
         form(class='needs-validation' novalidate)
          .mb-5.form-name
            .has-validation
-            <label for="nameInput" class="form-label">Your first and last name</label>
+            <label for="nameInput" class="form-label required">Your first and last name</label>
             <input type="text" class="form-control" id="nameInput" aria-describedby="nameInput" required>
             .invalid-feedback Please enter your first and last name.
 
@@ -65,7 +65,7 @@ body
 
          .mb-5.form-email
           .has-validation
-            <label for="emailInput" class="form-label">Your email address</label>
+            <label for="emailInput" class="form-label required">Your email address</label>
             <input type="email" class="form-control" id="emailInput" required>
             .invalid-feedback Please enter your email address.
 
@@ -78,7 +78,7 @@ body
       .cta-image-wrap.img-skew__container
         img.img-fluid(src='./assets/angled-pic3-desktop-tides-pardot-nl-signup-lp-flat.jpg')
 
-  .container-fluid.padding-zero
+  .container-fluid.padding-zero.margin-bottom-neg-2
     img.img-fluid(src='./assets/green-geometric-graphic-desktop-tides-pardot-nl-signup-lp.svg')
 
   #footer-section
